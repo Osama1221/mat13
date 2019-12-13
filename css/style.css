@@ -1,0 +1,31 @@
+/*navigation start*/
+
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.nav > li {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(13, 209, 216);
+    height: 30px;
+    padding: 5px;
+}
+.nav > li:hover {
+    box-shadow: 5px 5px 5px rgb(red, green, blue);
+    transform: scale(1.5);
+    font-size: 18px;
+}
+
+.nav > li > a {
+      text-decoration: none;
+}
+
+/*navigation end*/
+/*content start*/
+.hidden{
+    display: none;
+}
